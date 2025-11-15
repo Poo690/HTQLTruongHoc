@@ -1,0 +1,14 @@
+create table KetQua(
+   MaHS CHAR(10) FOREIGN KEY REFERENCES HS(MaHS),
+   TenKyThi NVARCHAR(50),
+   GiaiThuong NVARCHAR(50),
+   PRIMARY KEY(MaHS,TenKyThi)
+);
+
+-- vi du 
+insert into KetQua values ('HS01',N'Thi hoc sinh gioi',N'Giai nhi')
+
+select H.HoTen , K.TenKyThi,K.GiaiThuong,L.TenLop
+from KetQua K
+join HS as H on K.MaHS = H.MaHS
+join Lop as L on H.MaLop = L.MaLop;
