@@ -1,0 +1,3 @@
+select BoMon,GioiTinh,HoTen,DiaChi,NgaySinh,MaGV
+from GiaoVien
+order by BoMon,HoTen;
