@@ -1,0 +1,6 @@
+select L.TenLop,count(distinct H.MaHS) as SoHocSinh,
+                count(distinct G.MaGV) as SoGiaoVien
+from LopHoc L
+join HocSinh as H on L.MaLop = H.MaLop
+join GiaoVien as G on L.GVCN = G.MaGV
+group by L.TenLop;
