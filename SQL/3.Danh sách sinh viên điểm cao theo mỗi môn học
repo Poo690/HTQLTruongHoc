@@ -3,4 +3,4 @@ from Diem D
 join HocSinh as H on D.MaHS = H.MaHS
 join MonHoc as M on D.MaMon = M.MaMon
 where D.Diem >= 8.5
-order by M.TenMon,D.Diem desc
+order by M.TenMon,D.Diem desc;
