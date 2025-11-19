@@ -1,3 +1,17 @@
-select BoMon,GioiTinh,HoTen,DiaChi,NgaySinh,MaGV
-from GiaoVien
-order by BoMon,HoTen;
+CREATE PROCEDURE sp_LayDanhSachGiaoVienTheoBoMon
+    @MaBoMon CHAR(5)
+AS
+BEGIN
+    -- Kết hợp bảng GiaoVien và BoMon để lấy tên bộ môn
+    SELECT 
+        g.MaGV, 
+        g.HoTen, 
+        g.NgaySinh, 
+        g.GioiTinh, 
+        g.NgayVaoLam, 
+        b.TenBoMon
+    FROM GiaoVien g
+    INNER JOIN BoMon b ON g.MaBoMon = b.MaBoMon
+    WHERE g.MaBoMon = @MaBoMon;
+END;
+GO
