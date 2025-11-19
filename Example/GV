@@ -1,1 +1,11 @@
-
+insert into GiaoVien (MaGV, HoTen, NgaySinh, GioiTinh, DiaChi, BoMon, NamBatDauDay) values
+('GV01', N'Ngô Việt Anh', '1977-05-10', N'Nam', N'1A Nguyễn Văn Cừ, Q5', N'Các hệ quản trị csdl', 2000),
+('GV02', N'Nguyễn Đức An', '1976-03-25', N'2B Lý Thái Tổ, Q10', N'Hệ điều hành', 2002),
+('GV03', N'Nguyễn Việt Dũng', '1970-05-15', N'Nam', N'4D Hùng Vương, Q5', N'Toán rời rạc', 1998),
+('GV04', N'Vũ Thị Phương', '1980-04-20', N'Nữ', N'5E Cao Thắng, Q3', N'Kiến trúc máy tính', 2005),
+('GV05', N'Nguyễn Khánh Sơn', '1979-01-14', N'6F Trần Hưng Đạo, Q1', N'Nam', N'Lập trình Python', 2004),
+('GV06', N'Nguyễn Hữu Giang', '1975-11-10', N'Nam', N'3C Lê Lợi, Q1', N'Cơ sở dữ liệu', 2000),
+('GV07', N'Nguyễn Thị Thu Hằng', '1977-12-1', N'8H Nguyễn Trãi, Q5', N'Mạng máy tính', 2008),
+('GV08', N'Trần Văn Hưng', '1975-10-03', N'Nam', N'7G Võ Văn Tần, Q3', N'Lập trình C#', 2000),
+('GV09', N'Phạm Văn Tiến', '1970-07-02', N'Nam', N'9I Sư Vạn Hạnh, Q10', N'Cấu trúc dữ liệu và giải thuật', 1998),
+('GV10', N'Đặng Văn Trung', '1979-02-01', N'Nam', N'10K Thành Thái, Q10', N'Đại số thuyết tính', 2004);
