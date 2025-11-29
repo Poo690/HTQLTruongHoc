@@ -1,5 +1,5 @@
 
-insert into MonHoc (MaMon, TenMon, MaGVPhuTrach) values
+insert into BoMon (MaMon, TenMon, MaGVPhuTrach) values
 ('MH01', N'Cấu trúc dữ liệu và giải thuật', 'GV09'),
 ('MH02', N'Đại số tuyến tính', 'GV10'),
 ('MH03', N'Cơ sở dữ liệu', 'GV06'),
