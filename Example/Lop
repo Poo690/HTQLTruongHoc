@@ -1,1 +1,6 @@
 
+insert into LopHoc (MaLop, TenLop, GVCN) values
+('IT1', N'Kiến trúc máy tính', 'GV04'),
+('IT2', N'Các hệ quản trị csdl', 'GV01'),
+('IT3', N'Mạng máy tính', 'GV07'),
+('IT4', N'Lập trình C#', 'GV08');
